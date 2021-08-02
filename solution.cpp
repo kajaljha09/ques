@@ -12,17 +12,11 @@ float func(int A[],int n){
          
       }
         else if (A[i] < min) {
-            min = A[i]; };
-      
-        
-      
+            min = A[i]; }; 
     };
     for(int i=0;i <n;i++){
         if (max==A[i]){
              c++;};
-       
-    };
-    for(int i=0;i <n;i++){
         if (min==A[i]){
              c1++;};
        
@@ -30,12 +24,8 @@ float func(int A[],int n){
     
     max=c*max;
     min =c1*min;
-    
     float avg = (min+max)/(c+c1);
-    
-    return avg;
-    
-    
+    return avg;   
 };
 int main(){
     int A[]={3,3,1,1,8,4,5,9,11,88,88,88};
